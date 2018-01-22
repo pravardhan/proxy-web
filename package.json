@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "classnames": "^2.2.5",
+    "html-webpack-plugin": "^2.30.1",
     "jquery": "^3.2.1",
     "jss": "^8.0.0",
     "jss-global": "^2.0.0",

@@ -1,7 +1,6 @@
 const path = require("path");
 const webpack = require("webpack");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const workboxPlugin = require('workbox-webpack-plugin');
 
 const htmlConfig = {
   title: "Sequoia",

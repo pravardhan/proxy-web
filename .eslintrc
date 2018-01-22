@@ -1,0 +1,20 @@
+{
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true,
+            "modules": true
+        }
+    },
+    "parser": "babel-eslint",
+    "plugins": [
+        "react"
+    ],
+    "env": {
+        "es6": true
+    },
+    "rules": {
+        "no-extra-semi": 1,
+        "semi":"warn"
+    }
+}
