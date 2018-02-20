@@ -3,7 +3,7 @@ const webpack = require("webpack");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 const htmlConfig = {
-  title: "Sequoia",
+  title: "sampleProject",
   template: "./src/index.ejs",
   appMountId: "root"
 };
