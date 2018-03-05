@@ -1,8 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../../utils/font.less';
+import {connect} from 'react-redux';
 
-export default class About extends React.Component {
+class About extends React.Component {
   constructor(props) {
     super(props);
   }
@@ -16,8 +17,14 @@ export default class About extends React.Component {
     );
   }
   componentDidMount(){
-    setTimeout(()=>{
-      console.log("yess");
-    },1000);
+
   }
 }
+
+const mapStateToProps = state => {
+  return {
+    home: state.home
+  };
+};
+
+export default connect(mapStateToProps)(About);

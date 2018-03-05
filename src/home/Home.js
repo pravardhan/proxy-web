@@ -3,6 +3,7 @@ import {connect} from 'react-redux';
 import ACTION from '../common/action_constants';
 import { Link } from 'react-router-dom';
 import JsonView from '../common/components/JsonView';
+import { push } from 'react-router-redux';
 
 class Home extends React.Component {
   constructor(props) {
@@ -21,6 +22,7 @@ class Home extends React.Component {
   componentDidMount() {
     const {dispatch} = this.props;
     dispatch({type:ACTION.HOME.GETHOME});
+   //dispatch(push('/about')); //to navigate to a different route
   }
 }
 
