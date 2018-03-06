@@ -1,6 +1,5 @@
-# react-setup-w3
-React setup with webpack 3
+# Proxy web
+Frondend for Proxy tool.
 
-#### take a pull
 #### npm install
 #### npm start
