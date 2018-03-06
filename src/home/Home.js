@@ -15,13 +15,10 @@ class Home extends React.Component {
       <div>
         <Link to="/about" >about</Link>
         <h1 >You are on the home page.. {this.props.home.user.login}</h1>
-        {this.props.home.load && <JsonView /> }
       </div>
     );
   }
   componentDidMount() {
-    const {dispatch} = this.props;
-    dispatch({type:ACTION.HOME.GETHOME});
    //dispatch(push('/about')); //to navigate to a different route
   }
 }
